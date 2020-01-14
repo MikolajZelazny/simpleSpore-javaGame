@@ -12,7 +12,7 @@ public class Window extends Canvas {
     public Window (int height, int width, String title, Game game) {
         JFrame frame = new JFrame(title); // Window title by using "JFrame"
 
-        // EXPLANATION - LATER
+        // EXPLANATION - LATER.
         frame.setPreferredSize(new Dimension(height, width));
         frame.setMaximumSize(new Dimension(height, width));
         frame.setMinimumSize(new Dimension(height, width));
