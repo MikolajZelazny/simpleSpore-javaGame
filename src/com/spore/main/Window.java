@@ -22,7 +22,7 @@ public class Window extends Canvas {
         frame.setLocationRelativeTo(null); // Nie wymagane ale pozwala włączyć okno na środku zamiast w górnym lewym rogu
         frame.add(game); // Dodanie zawartości klasy "Game" do zawartości okna
         frame.setVisible(true); // Aby można było wszystko widzieć - do dopytania
-        game.start() // Użycie metody z obiektu main
+        game.start(); // Użycie metody z obiektu main
 
     }
 
