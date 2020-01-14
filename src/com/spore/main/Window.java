@@ -14,8 +14,8 @@ public class Window extends Canvas {
 
         // EXPLANATION - LATER
         frame.setPreferredSize(new Dimension(height, width));
-        frame.setPreferredSize(new Dimension(height, width));
-        frame.setPreferredSize(new Dimension(height, width));
+        frame.setMaximumSize(new Dimension(height, width));
+        frame.setMinimumSize(new Dimension(height, width));
     }
 
 }
