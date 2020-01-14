@@ -1,0 +1,2 @@
+1. Na początku komórki randomowo odbijają się od ścian
+2. Na kolejnym poziomie mięsożercy podążają za ofiarami
