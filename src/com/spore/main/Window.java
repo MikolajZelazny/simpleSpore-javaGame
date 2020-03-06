@@ -8,7 +8,7 @@ public class Window extends Canvas {
 
     private static final long serialVersionUID = -2581719437154533575L; // In IntelliJ "alt + Enter" za spacją.
 
-    // Constructor containing also Game class because game will be inside window of c
+    // Constructor containing also Game class because game will be inside window ofc
     public Window (int height, int width, String title, Game game) {
         JFrame frame = new JFrame(title); // Window by using "JFrame" z Java library
 
