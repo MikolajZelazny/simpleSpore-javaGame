@@ -32,7 +32,43 @@ public class Game extends Canvas implements Runnable {
     }
 
     @Override // abstrakcyjna metoda z interejsu "Runnable"
-    public void run() {
+
+    public void run() { // GAME LOOP
+            long lastTime = System.nanoTime();
+            double amountOfTicks = 60.0;
+            double ns = 1000000000 / amountOfTicks;
+            double delta = 0;
+            long timer = System.currentTimeMillis();
+            int frames = 0;
+            while(running)
+            {
+                long now = System.nanoTime();
+                delta += (now - lastTime) / ns;
+                lastTime = now;
+                while(delta >=1)
+                {
+                    tick();
+                    delta--;
+                }
+                if(running)
+                    render();
+                frames++;
+
+                if(System.currentTimeMillis() - timer > 1000)
+                {
+                    timer += 1000;
+                    System.out.println("FPS: "+ frames);
+                    frames = 0;
+                }
+            }
+            stop();
+    }
+
+    private void tick() {
+
+    }
+
+    private void render() {
 
     }
 
