@@ -25,7 +25,7 @@ public class Game extends Canvas implements Runnable {
 
     public synchronized void stop () {
         try {
-            thread.join();
+            thread.join(); // ZNALZC CO DAJE TEN JOIN
             running=false;
         } catch (Exception e) {
             e.printStackTrace();
@@ -69,7 +69,7 @@ public class Game extends Canvas implements Runnable {
 
     }
 
-    private void render() {
+    private void render() { // POCZYTAC O BUFFER I GRAPHICS
         BufferStrategy bs = this.getBufferStrategy();
         if (bs == null) {
             this.createBufferStrategy(3);
@@ -78,7 +78,7 @@ public class Game extends Canvas implements Runnable {
 
         Graphics g = bs.getDrawGraphics();
 
-        g.setColor(Color.black);
+        g.setColor(Color.cyan);
         g.fillRect(0,0,WIDTH,HEIGHT);
 
 
