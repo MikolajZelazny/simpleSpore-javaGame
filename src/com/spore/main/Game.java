@@ -1,6 +1,7 @@
 package com.spore.main;
 
 import java.awt.*;
+import java.awt.image.BufferStrategy;
 import java.awt.image.ImageObserver;
 
 // Główna klasa która będzie wszystko przechowywać, np. tu "narysujemy" nasz ekran i przechowamy metodę main z grą.
@@ -69,7 +70,11 @@ public class Game extends Canvas implements Runnable {
     }
 
     private void render() {
-
+        BufferStrategy bs = this.getBufferStrategy();
+        if (bs == null) {
+            this.createBufferStrategy(3);
+            return; // Co to za return?
+        }
     }
 
     public static void main (String[] args) {
