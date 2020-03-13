@@ -14,7 +14,7 @@ public class Game extends Canvas implements Runnable {
     private boolean running = false;
 
     public Game(){
-        new Window(HEIGHT, WIDTH, "Siple Spore The Game", this);
+        new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
@@ -75,6 +75,15 @@ public class Game extends Canvas implements Runnable {
             this.createBufferStrategy(3);
             return; // Co to za return?
         }
+
+        Graphics g = bs.getDrawGraphics();
+
+        g.setColor(Color.black);
+        g.fillRect(0,0,WIDTH,HEIGHT);
+
+
+        g.dispose();
+        bs.show();
     }
 
     public static void main (String[] args) {

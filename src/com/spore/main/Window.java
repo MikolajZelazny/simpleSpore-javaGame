@@ -9,13 +9,13 @@ public class Window extends Canvas {
     private static final long serialVersionUID = -2581719437154533575L; // In IntelliJ "alt + Enter" za spacją.
 
     // Constructor containing also Game class because game will be inside window ofc
-    public Window (int height, int width, String title, Game game) {
+    public Window (int width, int height, String title, Game game) {
         JFrame frame = new JFrame(title); // Window by using "JFrame" z Java library
 
         // EXPLANATION - LATER, for now - set maximum and minimum size of window
-        frame.setPreferredSize(new Dimension(height, width));
-        frame.setMaximumSize(new Dimension(height, width));
-        frame.setMinimumSize(new Dimension(height, width));
+        frame.setPreferredSize(new Dimension(width, height));
+        frame.setMaximumSize(new Dimension(width, height));
+        frame.setMinimumSize(new Dimension(width, height));
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // bez tego operacje nie zatrzymają się gdy wyłączymy gre
         frame.setResizable(false); // Wyłączenie możliwości zmiany wielkości okna co stworzyło by problemy
