@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40d0d5a-9e1f-4ef2-8256-92478332c73b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spore/main/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spore/main/ID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/spore/main/ID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -66,6 +73,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/com/spore/main/Game.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/com/spore/main/ID.java" />
       </list>
     </option>
   </component>
@@ -124,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584559396310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584559881327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="RunDashboard">
@@ -233,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584124283880</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Handler and GameObject classes added">
+      <created>1584559485070</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584559485070</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -276,7 +292,8 @@
     <MESSAGE value="game loop paste" />
     <MESSAGE value="bufferStrategy" />
     <MESSAGE value="height and width replacement &gt; Error repaired" />
-    <option name="LAST_COMMIT_MESSAGE" value="height and width replacement &gt; Error repaired" />
+    <MESSAGE value="Handler and GameObject classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handler and GameObject classes added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -336,6 +353,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
