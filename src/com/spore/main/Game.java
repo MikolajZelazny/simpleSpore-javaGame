@@ -69,7 +69,7 @@ public class Game extends Canvas implements Runnable {
 
     }
 
-    private void render() { // POCZYTAC O BUFFER I GRAPHICS
+    private void render() { // POCZYTAC O BUFFER I GRAPHICS (rendering systems)
         BufferStrategy bs = this.getBufferStrategy();
         if (bs == null) {
             this.createBufferStrategy(3);
