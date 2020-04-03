@@ -4,6 +4,7 @@
     <list default="true" id="f40d0d5a-9e1f-4ef2-8256-92478332c73b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Handler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
+            <state relative-caret-position="428">
               <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -26,22 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            <state relative-caret-position="221">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#185#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
-                <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#575#576#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
                 <element signature="e#624#625#0" expanded="true" />
@@ -51,6 +55,7 @@
                 <element signature="e#729#730#0" expanded="true" />
                 <element signature="e#757#758#0" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
                 <element signature="e#887#888#0" expanded="true" />
                 <element signature="e#913#914#0" expanded="true" />
@@ -104,9 +109,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/spore/main/Window.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/spore/main/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/ID.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/com/spore/main/Handler.java" />
       </list>
     </option>
   </component>
@@ -152,7 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585941847911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585942515841" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="RunDashboard">
@@ -296,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585941534622</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="setters and getters positioned to another configuration">
+      <created>1585941917885</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585941917885</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -344,7 +356,8 @@
     <MESSAGE value="GameObject constructor as class parameters setter" />
     <MESSAGE value="adding abstract methods to GameObject" />
     <MESSAGE value="adnotations for setters and this object" />
-    <option name="LAST_COMMIT_MESSAGE" value="adnotations for setters and this object" />
+    <MESSAGE value="setters and getters positioned to another configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="setters and getters positioned to another configuration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -368,23 +381,6 @@
           <folding>
             <element signature="e#0#855#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -412,12 +408,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spore/main/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
-            <element signature="e#551#552#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -427,6 +432,7 @@
             <element signature="e#729#730#0" expanded="true" />
             <element signature="e#757#758#0" expanded="true" />
             <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
             <element signature="e#887#888#0" expanded="true" />
             <element signature="e#913#914#0" expanded="true" />
@@ -436,6 +442,17 @@
             <element signature="e#1042#1043#0" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
             <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
