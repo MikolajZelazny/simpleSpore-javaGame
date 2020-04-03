@@ -8,14 +8,14 @@ public class Handler { // Loop through all object then render and update them.
     LinkedList<GameObject> object = new LinkedList<GameObject>();
 
     public void tick(){
-        for (int i=0; i<=object.size();i++){
+        for (int i=0; i<object.size();i++){
             GameObject tempObject = object.get(i);
 
             tempObject.tick();
         }
     }
     public void render(Graphics g){
-        for (int i=0; i<=object.size();i++){
+        for (int i=0; i<object.size();i++){
             GameObject tempObject = object.get(i);
 
             tempObject.render(g);
@@ -27,7 +27,7 @@ public class Handler { // Loop through all object then render and update them.
         this.object.add(object);
     }
     public void removeObject (GameObject object) {
-        this.object.add(object);
+        this.object.remove(object);
     }
 
 

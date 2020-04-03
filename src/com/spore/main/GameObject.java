@@ -14,7 +14,6 @@ public abstract class GameObject { //All objects like "coins","enemy","player" i
     }
 
     public abstract void tick();
-
     public abstract void render(Graphics g);
 
     public int getX() { //Wszystkie są w klasie Player ale ukryte

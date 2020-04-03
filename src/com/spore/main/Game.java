@@ -13,10 +13,14 @@ public class Game extends Canvas implements Runnable {
     private Thread thread; // Wątek dla całej gry (single-threaded game)
     private boolean running = false;
 
-    public Game(){
+    private Handler handler;
+
+    public Game() {
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
         handler = new Handler();
+
+        handler.addObject(new Player(100, 100, ID.Player));
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
@@ -80,12 +84,17 @@ public class Game extends Canvas implements Runnable {
 
         Graphics g = bs.getDrawGraphics();
 
-        g.setColor(Color.cyan);
+
+
+        g.setColor(Color.lightGray);
         g.fillRect(0,0,WIDTH,HEIGHT);
 
+        handler.render(g);//kolejność ma znaczenie
 
         g.dispose();
         bs.show();
+
+
     }
 
     public static void main (String[] args) {
