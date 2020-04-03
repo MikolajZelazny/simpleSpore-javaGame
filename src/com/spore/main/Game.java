@@ -21,6 +21,7 @@ public class Game extends Canvas implements Runnable {
         handler = new Handler();
 
         handler.addObject(new Player(100, 100, ID.Player));
+        handler.addObject(new Player(200, 200, ID.Player));
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
