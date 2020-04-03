@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40d0d5a-9e1f-4ef2-8256-92478332c73b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" afterDir="false" />
     </list>
@@ -38,8 +39,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding>
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,7 +144,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584573823708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585941504637" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="RunDashboard">
@@ -261,14 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584560335301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding abstract methods to GameObject">
+      <created>1585940976079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585940976080</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +327,8 @@
     <MESSAGE value="Handler and GameObject classes added" />
     <MESSAGE value="ID enum and velocity added" />
     <MESSAGE value="GameObject constructor as class parameters setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="GameObject constructor as class parameters setter" />
+    <MESSAGE value="adding abstract methods to GameObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding abstract methods to GameObject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -368,10 +389,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spore/main/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

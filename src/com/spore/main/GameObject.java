@@ -15,4 +15,28 @@ public abstract class GameObject { //All objects like "coins","enemy","player" i
 
     public abstract void tick();
     public abstract void render(Graphics g);
+
+    public void setX(int x) { // like constructor
+        this.x = x; //without x is not doing anything because we just setting parameter that we set.
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public void setId(ID id) {
+        this.id = id;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public ID getId() {
+        return id;
+    }
 }
