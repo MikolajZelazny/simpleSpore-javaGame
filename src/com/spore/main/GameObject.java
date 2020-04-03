@@ -1,5 +1,7 @@
 package com.spore.main;
 
+import java.awt.*;
+
 public abstract class GameObject { //All objects like "coins","enemy","player" inherrits same functions.
     protected int x, y; // chyba współrzędne
     protected ID id;
@@ -10,4 +12,7 @@ public abstract class GameObject { //All objects like "coins","enemy","player" i
         this.y = y;
         this.id = id;
     }
+
+    public abstract void tick();
+    public abstract void render(Graphics g);
 }
