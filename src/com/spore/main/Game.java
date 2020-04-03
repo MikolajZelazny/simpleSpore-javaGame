@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.ImageObserver;
 
-//Someday translate it into C# in unity project for mobs.
+//TODO Someday translate it into C# in unity project for mobs.
 
 // Główna klasa która będzie wszystko przechowywać, np. tu "narysujemy" nasz ekran i przechowamy metodę main z grą.
 public class Game extends Canvas implements Runnable {
