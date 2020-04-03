@@ -15,6 +15,8 @@ public class Game extends Canvas implements Runnable {
 
     public Game(){
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
+
+        handler = new Handler();
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
@@ -66,7 +68,7 @@ public class Game extends Canvas implements Runnable {
     }
 
     private void tick() {
-
+        handler.tick();
     }
 
     private void render() { // POCZYTAC O BUFFER I GRAPHICS (rendering systems)
