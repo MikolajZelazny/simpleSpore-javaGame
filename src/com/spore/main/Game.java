@@ -3,6 +3,7 @@ package com.spore.main;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.ImageObserver;
+import java.util.Random;
 
 //TODO Someday translate it into C# in unity project for mobs.
 
@@ -15,15 +16,19 @@ public class Game extends Canvas implements Runnable {
     private Thread thread; // Wątek dla całej gry (single-threaded game)
     private boolean running = false;
 
+    private Random r;
     private Handler handler;
 
     public Game() {
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
         handler = new Handler();
+        r = new Random();
 
-        handler.addObject(new Player(100, 100, ID.Player));
-        handler.addObject(new Player(200, 200, ID.Player));
+        for (int i=0; i<50; i++) {
+            // 50 obiektow w randomowych miejscach w zakresie szerokosci i wysokosci okna.
+            handler.addObject(new Player(r.nextInt(WIDTH), r.nextInt(HEIGHT), ID.Player));
+        }
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
