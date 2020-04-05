@@ -363,12 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585947372735</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="many object playing with random method">
+      <created>1586118005781</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586118005781</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23724696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,7 +385,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4979757" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979757" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,7 +452,8 @@
     <MESSAGE value="second object" />
     <MESSAGE value="plan added" />
     <MESSAGE value="plan visual change" />
-    <option name="LAST_COMMIT_MESSAGE" value="plan visual change" />
+    <MESSAGE value="many object playing with random method" />
+    <option name="LAST_COMMIT_MESSAGE" value="many object playing with random method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
