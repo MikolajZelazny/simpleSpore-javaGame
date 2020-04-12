@@ -20,9 +20,10 @@ public class Game extends Canvas implements Runnable {
     private Handler handler;
 
     public Game() {
-        handler = new Handler(); // should be above Window initializaion of Window because
-        // Window starting up start() method, which call run method, which call render which then uses handler method.
-        // NullPointerException sometimes when initializing something that doesn't exist.
+        handler = new Handler(); /* should be above Window initialization of Window because
+         Window starting up start() method, which call run method, which call render which then uses handler method.
+         NullPointerException sometimes when initializing something that doesn't exist. */
+
         this.addKeyListener(new KeyInput(handler)); //Inform the game we are using keys and tell it to listen them.
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
