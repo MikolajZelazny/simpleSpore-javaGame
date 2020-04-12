@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40d0d5a-9e1f-4ef2-8256-92478332c73b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
     </list>
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+            <state relative-caret-position="102">
+              <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2511#2512#0" expanded="true" />
@@ -26,6 +27,15 @@
                 <element signature="e#3064#3065#0" expanded="true" />
                 <element signature="e#3147#3148#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/spore/main/KeyInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -121,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/com/spore/main/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Player.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" />
       </list>
     </option>
   </component>
@@ -172,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586702957803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586703577146" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="RunDashboard">
@@ -393,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586701893123</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="explanation of methods order">
+      <created>1586703015349</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586703015349</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +497,8 @@
     <MESSAGE value="many object playing with random method" />
     <MESSAGE value="playing with first game sketch" />
     <MESSAGE value="setting object on the middle of map" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting object on the middle of map" />
+    <MESSAGE value="explanation of methods order" />
+    <option name="LAST_COMMIT_MESSAGE" value="explanation of methods order" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -565,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+        <state relative-caret-position="102">
+          <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2511#2512#0" expanded="true" />
@@ -574,6 +593,13 @@
             <element signature="e#3064#3065#0" expanded="true" />
             <element signature="e#3147#3148#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/KeyInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>

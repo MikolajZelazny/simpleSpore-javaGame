@@ -21,8 +21,8 @@ public class Game extends Canvas implements Runnable {
 
     public Game() {
         handler = new Handler(); // should be above Window initializaion of Window because
-        // Window starting up start() method, which call run method, which call render which uses handler method.
-
+        // Window starting up start() method, which call run method, which call render which then uses handler method.
+        // NullPointerException sometimes when initializing something that doesn't exist.
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
         r = new Random();
