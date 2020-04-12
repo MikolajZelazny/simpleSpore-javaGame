@@ -20,15 +20,14 @@ public class Game extends Canvas implements Runnable {
     private Handler handler;
 
     public Game() {
+        handler = new Handler();
+
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
-        handler = new Handler();
         r = new Random();
 
-        for (int i=0; i<20; i++) {
-            // 50 obiektow w randomowych miejscach w zakresie szerokosci i wysokosci okna.
-            handler.addObject(new Player(0, 0, ID.Player));
-        }
+        handler.addObject(new Player(WIDTH/2-32,HEIGHT/2-32, ID.Player));
+
     }
 
     public synchronized void start () { // Implementacja metody zawartej w klasie "Window"
