@@ -17,6 +17,6 @@ public class KeyInput extends KeyAdapter {
     }
 
     public void keyReleased(KeyEvent e) {
-
+        int key = e.getKeyCode();
     }
 }
