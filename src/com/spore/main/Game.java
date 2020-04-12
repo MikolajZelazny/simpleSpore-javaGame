@@ -20,7 +20,8 @@ public class Game extends Canvas implements Runnable {
     private Handler handler;
 
     public Game() {
-        handler = new Handler();
+        handler = new Handler(); // should be above Window initializaion of Window because
+        // Window starting up start() method, which call run method, which call render which uses handler method.
 
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
 
