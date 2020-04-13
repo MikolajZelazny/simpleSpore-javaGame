@@ -18,16 +18,16 @@ public class KeyInput extends KeyAdapter {
             GameObject tempObject = handler.object.get(i);
 
             if(tempObject.getId() == ID.Player) { //KEYBOARD SETTINGS
-                if (key == KeyEvent.VK_W) tempObject.setY(tempObject.getY()-1);
-                if (key == KeyEvent.VK_S) tempObject.setY(tempObject.getY()+2);
-                if (key == KeyEvent.VK_A) tempObject.setX(tempObject.getX()-2);
-                if (key == KeyEvent.VK_D) tempObject.setX(tempObject.getX()+2);
+                if (key == KeyEvent.VK_W) tempObject.setVelY(-5);
+                if (key == KeyEvent.VK_S) tempObject.setVelY(5);
+                if (key == KeyEvent.VK_D) tempObject.setVelX(5);
+                if (key == KeyEvent.VK_A) tempObject.setVelX(-5);
             }
             if(tempObject.getId() == ID.Player2) { //KEYBOARD SETTINGS
-                if (key == KeyEvent.VK_W) tempObject.setY(tempObject.getY()-1);
-                if (key == KeyEvent.VK_S) tempObject.setY(tempObject.getY()+2);
-                if (key == KeyEvent.VK_A) tempObject.setX(tempObject.getX()-2);
-                if (key == KeyEvent.VK_D) tempObject.setX(tempObject.getX()+2);
+                if (key == KeyEvent.VK_UP) tempObject.setVelY(-5);
+                if (key == KeyEvent.VK_DOWN) tempObject.setVelY(5);
+                if (key == KeyEvent.VK_RIGHT) tempObject.setVelX(5);
+                if (key == KeyEvent.VK_LEFT) tempObject.setVelX(-5);
             }
         }
 
