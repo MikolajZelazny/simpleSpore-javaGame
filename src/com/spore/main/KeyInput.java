@@ -41,7 +41,7 @@ public class KeyInput extends KeyAdapter {
             GameObject tempObject = handler.object.get(i);
 
             if (tempObject.getId() == ID.Player) { //KEYBOARD SETTINGS
-                if (key == KeyEvent.VK_W) tempObject.setVelY(0);
+                if (key == KeyEvent.VK_W) tempObject.setVelY(5);
                 if (key == KeyEvent.VK_S) tempObject.setVelY(0);
                 if (key == KeyEvent.VK_D) tempObject.setVelX(0);
                 if (key == KeyEvent.VK_A) tempObject.setVelX(0);
