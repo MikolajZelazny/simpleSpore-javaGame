@@ -4,6 +4,7 @@
     <list default="true" id="f40d0d5a-9e1f-4ef2-8256-92478332c73b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="-443">
               <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -29,13 +30,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/KeyInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+            <state relative-caret-position="228">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8823">
+            <state relative-caret-position="296">
               <caret line="558" selection-start-line="558" selection-end-line="558" />
             </state>
           </provider>
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spore/main/ID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -128,10 +128,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/spore/main/Window.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/com/spore/main/ID.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Handler.java" />
-        <option value="$PROJECT_DIR$/src/com/spore/main/Player.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/spore/main/ID.java" />
+        <option value="$PROJECT_DIR$/src/com/spore/main/Player.java" />
         <option value="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" />
       </list>
     </option>
@@ -447,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586705717158</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="setting key events">
+      <created>1586792794361</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1586792794362</updated>
+    </task>
+    <task id="LOCAL-00033" summary="second player added, two on one screen possibility">
+      <created>1586793253681</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1586793253681</updated>
+    </task>
+    <task id="LOCAL-00034" summary="WASD and arrows keyboard settings when two Player objects">
+      <created>1586793912162</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1586793912162</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +500,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.024291499" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.039676115" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319837" />
@@ -511,9 +532,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thread and running methods implementation" />
-    <MESSAGE value="game loop paste" />
-    <MESSAGE value="bufferStrategy" />
     <MESSAGE value="height and width replacement &gt; Error repaired" />
     <MESSAGE value="Handler and GameObject classes added" />
     <MESSAGE value="ID enum and velocity added" />
@@ -536,7 +554,10 @@
     <MESSAGE value="handler constructor in KeyInput constructor" />
     <MESSAGE value="keyReleased method implementation" />
     <MESSAGE value="comment correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment correction" />
+    <MESSAGE value="setting key events" />
+    <MESSAGE value="second player added, two on one screen possibility" />
+    <MESSAGE value="WASD and arrows keyboard settings when two Player objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="WASD and arrows keyboard settings when two Player objects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -563,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8823">
-          <caret line="558" selection-start-line="558" selection-end-line="558" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spore/main/ID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spore/main/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -599,23 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="296">
+          <caret line="558" selection-start-line="558" selection-end-line="558" />
         </state>
       </provider>
     </entry>
@@ -630,15 +624,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spore/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spore/main/KeyInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        <state relative-caret-position="228">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
