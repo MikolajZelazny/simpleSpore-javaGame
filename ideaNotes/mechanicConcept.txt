@@ -1,7 +1,10 @@
 1. Na początku komórki randomowo odbijają się od ścian
 2. Na kolejnym poziomie mięsożercy podążają za ofiarami
 
-
+3. Po uzyskaniu punktow za jedzenie odblokowywuje sie mozliwosc rozmnazania wtedy szuka kogo komu tez sie odblokowalo
 
 Code concepts:
 1.When neuro-system infected KeyRealised method giving random values
+
+Visual concepts:
+1.Snake look for meat eaters on high lvl
