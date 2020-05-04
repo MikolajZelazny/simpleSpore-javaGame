@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spimle Spore 2D.iml" filepath="$PROJECT_DIR$/Spimle Spore 2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleSpore-javaGame.iml" filepath="$PROJECT_DIR$/simpleSpore-javaGame.iml" />
     </modules>
   </component>
 </project>
