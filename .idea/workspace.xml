@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/KeyInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/KeyInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/ID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587411013121</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BasicEnemy class with constructor matching super and override abstract methods">
+      <created>1589984162625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589984162625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +120,7 @@
     <MESSAGE value="snake concept and procreation using" />
     <MESSAGE value="..." />
     <MESSAGE value="push check" />
-    <option name="LAST_COMMIT_MESSAGE" value="push check" />
+    <MESSAGE value="BasicEnemy class with constructor matching super and override abstract methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="BasicEnemy class with constructor matching super and override abstract methods" />
   </component>
 </project>
