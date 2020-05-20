@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="BasicEnemy class with constructor matching super and override abstract methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/ID.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589984162625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BasicEnemy class with constructor matching super and override abstract methods">
+      <created>1589984324525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589984324525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
