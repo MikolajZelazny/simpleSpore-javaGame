@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="BasicEnemy class with constructor matching super and override abstract methods">
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589984324525</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Enemy follows key events error resolving">
+      <created>1589992854102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589992854102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +136,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="push check" />
     <MESSAGE value="BasicEnemy class with constructor matching super and override abstract methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="BasicEnemy class with constructor matching super and override abstract methods" />
+    <MESSAGE value="Enemy follows key events error resolving" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enemy follows key events error resolving" />
   </component>
 </project>

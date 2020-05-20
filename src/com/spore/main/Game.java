@@ -31,7 +31,7 @@ public class Game extends Canvas implements Runnable {
 
         handler.addObject(new Player(WIDTH/2-32,HEIGHT/2-32, ID.Player));
         handler.addObject(new Player(WIDTH/2+32,HEIGHT/2-32, ID.Player2));
-        handler.addObject(new BasicEnemy(WIDTH/2+30,HEIGHT/2-30, ID.Player2));
+        handler.addObject(new BasicEnemy(WIDTH/2+30,HEIGHT/2-30, ID.Player2)); //key events of Player2 are same as Enemy objects so they follows him.
 
     }
 
