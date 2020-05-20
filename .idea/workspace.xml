@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="" />
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/KeyInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/KeyInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/ID.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587333308457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push check">
+      <created>1587411013121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587411013121</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
