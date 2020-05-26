@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Follower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Follower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spore/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589995451102</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="clamp method which return player position if he tries to pass behind map so it just stops him">
+      <created>1590523381214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523381215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +160,7 @@
     <MESSAGE value="Enemy follows key events error resolving" />
     <MESSAGE value="Mistake, found and marked with new idea behind t" />
     <MESSAGE value="Thinking about follower cell" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thinking about follower cell" />
+    <MESSAGE value="clamp method which return player position if he tries to pass behind map so it just stops him" />
+    <option name="LAST_COMMIT_MESSAGE" value="clamp method which return player position if he tries to pass behind map so it just stops him" />
   </component>
 </project>
