@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/HUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/HUD.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590529749674</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="shield icons under life bar">
+      <created>1590530269864</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590530269864</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +213,7 @@
     <MESSAGE value="adnotation t clamp about its universality" />
     <MESSAGE value="HUD system, with HEALTH bar and clamp method" />
     <MESSAGE value="designing HUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="designing HUD" />
+    <MESSAGE value="shield icons under life bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="shield icons under life bar" />
   </component>
 </project>
