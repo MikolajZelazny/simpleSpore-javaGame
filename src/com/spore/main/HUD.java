@@ -20,8 +20,20 @@ public class HUD {
         g.setColor(Color.darkGray);
         g.drawRect(15, 15, 200, 25);
 
-        g.setColor(Color.orange);
+        g.setColor(Color.getHSBColor(83,220,235));
         g.fillRect(125, 40, 25, 25);
+        g.setColor(Color.darkGray);
+        g.drawRect(125, 40, 25, 25);
+
+        g.setColor(Color.getHSBColor(83,220,235));
+        g.fillRect(150, 40, 25, 25);
+        g.setColor(Color.darkGray);
+        g.drawRect(150, 40, 25, 25);
+
+        g.setColor(Color.getHSBColor(83,220,235));
+        g.fillRect(175, 40, 25, 25);
+        g.setColor(Color.darkGray);
+        g.drawRect(175, 40, 25, 25);
 
     }
 
