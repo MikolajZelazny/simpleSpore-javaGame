@@ -2,7 +2,7 @@ package com.spore.main;
 
 import java.awt.*;
 
-public class Follower extends GameObject {
+public class Follower extends Player {
 
     public Follower(int x, int y, ID id) {
         super(x, y, id);
@@ -20,6 +20,7 @@ public class Follower extends GameObject {
 
         if ( y < 0 || y >= Game.HEIGHT -32) velY *= -1;
         if ( x < 0 || x >= Game.WIDTH -32) velX *= -1;
+
     }
 
     @Override

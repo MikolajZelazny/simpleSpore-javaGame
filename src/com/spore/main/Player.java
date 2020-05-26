@@ -21,6 +21,10 @@ public class Player extends GameObject {
     public void tick() {
         x += velX;
         y += velY;
+
+
+
+
     }
 
     @Override
