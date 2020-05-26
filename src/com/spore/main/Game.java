@@ -18,6 +18,7 @@ public class Game extends Canvas implements Runnable {
 
     private Random r;
     private Handler handler;
+    private HUD hud;
 
     public Game() {
         handler = new Handler(); /* should be above Window initialization of Window because
@@ -26,6 +27,7 @@ public class Game extends Canvas implements Runnable {
 
         this.addKeyListener(new KeyInput(handler)); //Inform the game we are using keys and tell it to listen them.
         new Window(WIDTH, HEIGHT, "Siple Spore The Game", this);
+        hud = new HUD();
 
         r = new Random();
 
@@ -86,6 +88,7 @@ public class Game extends Canvas implements Runnable {
 
     private void tick() {
         handler.tick();
+        hud.tick();
     }
 
     private void render() { // POCZYTAC O BUFFER I GRAPHICS (rendering systems)
@@ -102,6 +105,7 @@ public class Game extends Canvas implements Runnable {
         g.setColor(Color.lightGray);
         g.fillRect(0,0,WIDTH,HEIGHT);
 
+        hud.render(g);
         handler.render(g);//kolejność ma znaczenie
 
         g.dispose();
