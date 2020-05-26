@@ -20,6 +20,9 @@ public class HUD {
         g.setColor(Color.darkGray);
         g.drawRect(15, 15, 200, 25);
 
+        g.setColor(Color.orange);
+        g.fillRect(125, 40, 25, 25);
+
     }
 
 

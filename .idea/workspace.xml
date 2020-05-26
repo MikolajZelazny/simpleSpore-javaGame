@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/spore/main/HUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590526543620</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HUD system, with HEALTH bar and clamp method">
+      <created>1590529229360</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590529229360</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +197,7 @@
     <MESSAGE value="improving follower mechanic" />
     <MESSAGE value="close game if press escape option added" />
     <MESSAGE value="adnotation t clamp about its universality" />
-    <option name="LAST_COMMIT_MESSAGE" value="adnotation t clamp about its universality" />
+    <MESSAGE value="HUD system, with HEALTH bar and clamp method" />
+    <option name="LAST_COMMIT_MESSAGE" value="HUD system, with HEALTH bar and clamp method" />
   </component>
 </project>
