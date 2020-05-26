@@ -21,8 +21,8 @@ public class Follower extends Player {
         //if (velX == 0) velX = 5;
         if ( y < 0 || y >= Game.HEIGHT -32) velY *= -1;
         if ( x < 0 || x >= Game.WIDTH -32) velX *= -1;
-        x = Game.clamp(x, 0, Game.WIDTH-32);
-        y = Game.clamp(y, 0, Game.HEIGHT-32);
+        x = Game.clamp(x, 0, Game.WIDTH-37);
+        y = Game.clamp(y, 0, Game.HEIGHT-60);
 
 
 

@@ -32,7 +32,10 @@ public class KeyInput extends KeyAdapter {
         }
 
         System.out.println(key);
+
+        if (key == KeyEvent.VK_ESCAPE) System.exit(1);
     }
+
 
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
