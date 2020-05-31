@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590958418134</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="valid Rectangle library path imported to Player class">
+      <created>1590958724981</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590958724981</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +244,7 @@
     <MESSAGE value="shield icons under life bar" />
     <MESSAGE value="shield markers color changed to dirty green" />
     <MESSAGE value="rectangge of enemy and player hanging with two same named Recatangle classes in java library" />
-    <option name="LAST_COMMIT_MESSAGE" value="rectangge of enemy and player hanging with two same named Recatangle classes in java library" />
+    <MESSAGE value="valid Rectangle library path imported to Player class" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid Rectangle library path imported to Player class" />
   </component>
 </project>

@@ -19,7 +19,7 @@ public class Player extends GameObject {
     }
 
     public Rectangle getBounds() {
-        return new Rectangle(x, y, 32, 32);
+        return new Rectangle(x, y, 32+4, 32+4);
     }
 
     @Override
@@ -35,8 +35,17 @@ public class Player extends GameObject {
 
     @Override
     public void render(Graphics g) {
-        if(id == ID.Player)g.setColor(Color.green);
-        else if(id == ID.Player2)g.setColor(Color.pink);
-        g.fillRect(x, y, 32, 32);
+
+        Graphics2D g2d = (Graphics2D) g;
+
+        g.setColor(Color.GREEN);
+        g2d.draw(getBounds());
+
+        //if(id == ID.Player)g.setColor(Color.green);
+        //else if(id == ID.Player2)g.setColor(Color.pink);
+
+
+        //g.setColor(Color.green);
+        //g.fillRect(x, y, 32, 32);
     }
 }
