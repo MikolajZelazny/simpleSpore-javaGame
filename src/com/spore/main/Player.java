@@ -1,6 +1,6 @@
 package com.spore.main;
 
-import javafx.scene.shape.Rectangle;
+import java.awt.Rectangle;
 
 import java.awt.*;
 import java.util.Random;
