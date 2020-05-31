@@ -19,7 +19,7 @@ public class Player extends GameObject {
     }
 
     public Rectangle getBounds() {
-        return new Rectangle(x, y, 32+4, 32+4);
+        return new Rectangle(x, y, 32, 32);
     }
 
     @Override
@@ -45,7 +45,7 @@ public class Player extends GameObject {
         //else if(id == ID.Player2)g.setColor(Color.pink);
 
 
-        //g.setColor(Color.green);
-        //g.fillRect(x, y, 32, 32);
+        g.setColor(Color.pink);
+        g.drawRect(x-32, y+32, 96, 64); //TODO : chromosomes and DNA strucures inside (future - DNA with machine learning)
     }
 }
