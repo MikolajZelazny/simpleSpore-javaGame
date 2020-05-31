@@ -1,7 +1,8 @@
 package com.spore.main;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import javafx.scene.shape.Rectangle;
+
+import java.awt.*;
 import java.util.Random;
 
 public class Player extends GameObject {
@@ -15,6 +16,10 @@ public class Player extends GameObject {
         //velX = r.nextInt(5)+1; //+1 guarantee that every qube will move
         //velY = r.nextInt(5);
 
+    }
+
+    public Rectangle getBounds() {
+        return new Rectangle(x, y, 32, 32);
     }
 
     @Override

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="" />
+    <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/BasicEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aj96vyp4LtUr9H66mBni1QrQPi" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -181,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590530269864</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="shield markers color changed to dirty green">
+      <created>1590530507162</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590530507162</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +230,7 @@
     <MESSAGE value="HUD system, with HEALTH bar and clamp method" />
     <MESSAGE value="designing HUD" />
     <MESSAGE value="shield icons under life bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="shield icons under life bar" />
+    <MESSAGE value="shield markers color changed to dirty green" />
+    <option name="LAST_COMMIT_MESSAGE" value="shield markers color changed to dirty green" />
   </component>
 </project>
