@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc02df7a-45b2-4383-bba5-9319a74005f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simpleSpore-javaGame/com/spore/main/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spore/main/KeyInput.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590959427842</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="complicating cell body size and setting todo with machine learning of dna inside body dna structire">
+      <created>1590960105828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590960105828</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +262,7 @@
     <MESSAGE value="rectangge of enemy and player hanging with two same named Recatangle classes in java library" />
     <MESSAGE value="valid Rectangle library path imported to Player class" />
     <MESSAGE value="cells looks more realistic" />
-    <option name="LAST_COMMIT_MESSAGE" value="cells looks more realistic" />
+    <MESSAGE value="complicating cell body size and setting todo with machine learning of dna inside body dna structire" />
+    <option name="LAST_COMMIT_MESSAGE" value="complicating cell body size and setting todo with machine learning of dna inside body dna structire" />
   </component>
 </project>

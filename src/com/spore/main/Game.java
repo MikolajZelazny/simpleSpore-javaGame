@@ -12,7 +12,7 @@ public class Game extends Canvas implements Runnable {
 
     private static final long serialVersionUID = 3855241409607072348L; // Co to jest?
 
-    public static final int WIDTH = 640, HEIGHT = WIDTH / 12 * 9; // Setting window size
+    public static final int WIDTH = 1080, HEIGHT = WIDTH / 12 * 9; // Setting window size
     private Thread thread; // Wątek dla całej gry (single-threaded game)
     private boolean running = false;
 

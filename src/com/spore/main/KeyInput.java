@@ -4,7 +4,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class KeyInput extends KeyAdapter {
-
+    // TODO add keyEvent (ctr+<some move key(W,A,S,D) to turn cell into other direction which add speed to front direction
     private Handler handler;
 
     public KeyInput(Handler handler) { // Everything we put into handler constructor gonna input to this.
