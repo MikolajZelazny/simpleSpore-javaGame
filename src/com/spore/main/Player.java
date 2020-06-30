@@ -10,7 +10,7 @@ public class Player extends GameObject {
     Random r = new Random();
 
     public Player (int x, int y, ID id) {
-
+    // every object -(direction) for passing world ilusion
         super(x, y, id);
 
         //velX = r.nextInt(5)+1; //+1 guarantee that every qube will move
